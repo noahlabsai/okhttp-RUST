@@ -8,9 +8,9 @@
 
 ## Executive Summary
 
-**OkHttp Rust** is a complete **Rust** translation of **[OkHttp](https://github.com/square/okhttp)**—Square’s **Kotlin / JVM** HTTP client. The entire codebase was translated from **Kotlin** to **Rust** using **SENTINEL IDE by NOAH Labs**, preserving the original **program structure**, **file naming conventions**, and **functional behaviour** while targeting a modern **Rust** / **cargo** workspace.
+OkHttp Rust is a complete Rust translation of [OkHttp](https://github.com/square/okhttp) — Square's Kotlin / JVM HTTP client. The entire codebase was translated from Kotlin to Rust using **SENTINEL IDE by NOAH Labs**, preserving the original program structure, file naming conventions, and functional behaviour while targeting a modern Rust / cargo workspace.
 
-OkHttp is a production HTTP stack (HTTP/1.1, HTTP/2, connection pooling, caching, TLS, WebSockets, and more), widely used on Android and the JVM. This Rust translation demonstrates a fully modernized version of that client running on standard **Rust** infrastructure.
+OkHttp is a production HTTP stack (HTTP/1.1, HTTP/2, connection pooling, caching, TLS, WebSockets, and more), widely used on Android and the JVM. This Rust translation demonstrates a fully modernized version of that client running on standard Rust infrastructure.
 
 > **Original source:** [square/okhttp](https://github.com/square/okhttp) (Apache License 2.0). This repository is a companion translation; the official OkHttp distribution remains the Square-maintained Kotlin/JVM release.
 
@@ -44,7 +44,7 @@ The translation preserves the original module organization and naming discipline
 
 ## Translation Approach
 
-This codebase was translated entirely using **SENTINEL IDE by NOAH Labs** — an automated modernization toolchain that converts Kotlin / JVM application code (including multiplatform layouts) into **Rust** workspace crates.
+This codebase was translated entirely using **SENTINEL IDE by NOAH Labs** — an automated modernization toolchain that converts Kotlin / JVM application code (including multiplatform layouts) into Rust workspace crates.
 
 | Aspect | Approach |
 |--------|----------|
