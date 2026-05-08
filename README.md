@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-OkHttp Rust is a complete Rust translation of [OkHttp](https://github.com/square/okhttp) — Square's Kotlin / JVM HTTP client. The entire codebase was translated from Kotlin to Rust using **SENTINEL IDE by NOAH Labs**, preserving the original program structure, file naming conventions, and functional behaviour while targeting a modern Rust / cargo workspace.
+OkHttp Rust is a Rust translation of [OkHttp](https://github.com/square/okhttp) — Square's Kotlin / JVM HTTP client. The entire codebase was translated from Kotlin to Rust using **SENTINEL IDE by NOAH Labs**, preserving the original program structure, file naming conventions, and functional behaviour while targeting a modern Rust / cargo workspace.
 
 OkHttp is a production HTTP stack (HTTP/1.1, HTTP/2, connection pooling, caching, TLS, WebSockets, and more), widely used on Android and the JVM. This Rust translation demonstrates a fully modernized version of that client running on standard Rust infrastructure.
 
@@ -57,7 +57,7 @@ This codebase was translated entirely using **SENTINEL IDE by NOAH Labs** — an
 
 ## Technologies
 
-### Kotlin / OkHttp → Rust
+### Original (Kotlin / JVM) → Rust Translation
 
 | Original | Rust expression |
 |----------|-----------------|
