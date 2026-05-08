@@ -32,7 +32,7 @@ OkHttp is a production HTTP stack (HTTP/1.1, HTTP/2, connection pooling, caching
 
 ## Description
 
-OkHttp is an HTTP client for Android and the JVM, built for efficient networking in production apps. This Rust translation provides a fully realized counterpart that runs on standard **Rust / cargo** infrastructure, suitable for:
+OkHttp is an HTTP client for Android and the JVM, built for efficient networking in production apps. This Rust translation provides a fully realized counterpart that runs on standard Rust / cargo infrastructure, suitable for:
 
 - Demonstrating **Kotlin → Rust** modernization outcomes on a real-world client stack
 - Validating architectural and behavioral alignment with the upstream OkHttp design
@@ -40,7 +40,7 @@ OkHttp is an HTTP client for Android and the JVM, built for efficient networking
 - Training and onboarding developers moving from Kotlin / JVM idioms to Rust
 - Serving as a reference implementation for automated **Kotlin → Rust** translation at scale
 
-The translation preserves the original module organization and naming discipline so reviewers can trace each Rust artifact back to the **Kotlin** sources.
+The translation preserves the original module organization and naming discipline so reviewers can trace each Rust artifact back to the Kotlin sources.
 
 ## Translation Approach
 
@@ -65,12 +65,12 @@ This codebase was translated entirely using **SENTINEL IDE by NOAH Labs** — an
 | **Okio** (`Buffer`, `Source`, `Sink`) | `bytes`, `std::io`, project adapters |
 | **Gradle modules** | **cargo** workspace members under **`rust/`** |
 | **Tests** | Rust tests and harnesses aligned to upstream coverage |
-| **Concurrency** | `std::sync`; **tokio** and related crates where async patterns apply |
+| **Concurrency** | `std::sync`; tokio and related crates where async patterns apply |
 
 ### Runtime Stack
 
 - **Rust** (stable recommended, via [rustup](https://rustup.rs/))
-- **cargo** workspace (root **`Cargo.toml`**, resolver **2**)
+- cargo workspace (root **`Cargo.toml`**, resolver **2**)
 - Shared dependency versions in the workspace manifest; common crates include **serde**, **regex**, **tokio**, **once_cell**, **log**, and others as wired per crate
 
 ## Workspace Modules
@@ -95,8 +95,8 @@ Gradle-only build scripts were not carried forward as Rust sources; each member 
 
 ### Prerequisites
 
-- **Rust** toolchain ([rustup](https://rustup.rs/))
-- **cargo** (installed with Rust)
+- Rust toolchain ([rustup](https://rustup.rs/))
+- cargo (installed with Rust)
 
 ### Quick Start
 
