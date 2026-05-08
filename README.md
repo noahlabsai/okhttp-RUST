@@ -101,8 +101,8 @@ Gradle-only build scripts were not carried forward as Rust sources; each member 
 ### Quick Start
 
 ```bash
-git clone https://github.com/noahlabsai/okhttp-KOTLIN.git
-cd okhttp-KOTLIN
+git clone https://github.com/noahlabsai/okhttp-RUST.git
+cd okhttp-RUST
 cargo check --workspace
 ```
 
