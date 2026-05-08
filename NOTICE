@@ -1,0 +1,20 @@
+OkHttp
+Copyright (C) Square, Inc.
+
+This project is derived from or relates to OkHttp, an HTTP client for
+Android and the JVM. OkHttp is licensed under the Apache License,
+Version 2.0. See the LICENSE file for the full license text.
+
+----------------------------------------------------------------------
+okhttp-KOTLIN
+
+Copyright (C) NOAH Labs
+
+This repository may contain modifications, documentation, or other
+material authored by NOAH Labs. Such material is also licensed under
+the Apache License, Version 2.0, unless otherwise stated in a
+given file.
+
+For the avoidance of doubt: Square, Inc. is not responsible for the
+contents of this repository beyond what is required by the Apache
+License, Version 2.0.

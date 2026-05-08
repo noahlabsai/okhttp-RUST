@@ -1,0 +1,12 @@
+﻿[package]
+name = "okhttp-testing-support"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license.workspace = true
+description = "Rust translation of the corresponding upstream OkHttp Gradle module (sources under src/)."
+
+[lib]
+path = "lib.rs"
+
+[dependencies]

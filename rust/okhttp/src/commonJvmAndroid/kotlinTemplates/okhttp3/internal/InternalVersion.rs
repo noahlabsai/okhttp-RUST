@@ -1,0 +1,23 @@
+/*
+ * Copyright (C) 2022 Block, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+// Internal version constant.
+// In Kotlin, this was "$projectVersion", which is typically injected by the build system.
+// In Rust, this is typically handled via env!("CARGO_PKG_VERSION") or a similar build-time constant.
+use crate::android_test::src::androidTest::java::okhttp::android::test::sni::SniOverrideTest::*;
+use crate::build_logic::src::main::kotlin::okhttp_publish_conventions_gradle::*;
+
+pub(crate) const CONST_VERSION: &str = env!("CARGO_PKG_VERSION");
